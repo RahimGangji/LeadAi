@@ -1,0 +1,4 @@
+interface:
+  display_name: "Professional Web Design"
+  short_description: "Build polished, non-cliche professional web interfaces."
+  default_prompt: "Use this skill to design a professional website or app UI that avoids AI-generated visual cliches."
