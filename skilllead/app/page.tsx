@@ -28,7 +28,7 @@ type JobResponse = {
 
 const examples = [
   "Find 25 dental clinics in Austin from Google Maps",
-  "Get LinkedIn company data for fintech companies in New York",
+  "Find 100 restaurants in Dallas, TX from Google Maps with phone and website",
   "Find 50 coffee shops in Dallas from Google Maps with phone and website",
 ];
 
@@ -163,7 +163,7 @@ export default function Home() {
           <div>
             <p className="text-sm font-semibold text-emerald-700">SkillLead</p>
             <h1 className="mt-1 text-2xl font-semibold tracking-normal text-slate-950 sm:text-3xl">
-              LinkedIn and Google Maps data to Excel
+              Google Maps data to Excel
             </h1>
           </div>
           <div className="flex items-center gap-2 text-sm text-slate-600">
@@ -181,7 +181,7 @@ export default function Home() {
                     Describe the data you need
                   </label>
                   <p className="mt-1 max-w-2xl text-sm leading-6 text-slate-600">
-                    Include LinkedIn or Google Maps, target, location or URL, quantity, and fields. The system selects the best available data route.
+                    Include target, location, quantity, and fields. The system turns Google Maps results into a clean Excel file.
                   </p>
                 </div>
                 <Search className="mt-1 text-slate-400" size={22} />
